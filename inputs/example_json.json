@@ -1,0 +1,20 @@
+{
+  "event_type": "order_created",
+  "timestamp": "2025-06-02T15:00:00Z",
+  "source": "ecommerce_api",
+  "payload": {
+    "order_id": "ORD-2025001",
+    "user_id": "USR-990011",
+    "items": [
+      {
+        "item_id": "SKU-789",
+        "name": "Bluetooth Speaker",
+        "quantity": "2",
+        "unit_price": 35.00
+      }
+    ],
+    "currency": "USD",
+    "total_amount": 70.00,
+    "payment_status": "paid"
+  }
+}
