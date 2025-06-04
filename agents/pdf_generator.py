@@ -14,13 +14,13 @@ lines = [
     "------------------------------------------------------------",
     "| Item              | Qty | Unit Price (INR) | Total (INR) |",
     "|-------------------|-----|------------------|-------------|",
-    "| Laptop Stand      | 2   | 1,250.00         | 2,500.00    |",
-    "| Wireless Mouse    | 3   | 600.00           | 1,800.00    |",
-    "| External SSD      | 1   | 7,500.00         | 7,500.00    |",
-    "| HDMI Cable        | 5   | 215.00           | 1,075.00    |",
-    "| USB Hub           | 2   | 1,500.00         | 3,000.00    |",
+    "| Laptop Stand      | 2   | 1,000.00         | 2,000.00    |",
+    "| Wireless Mouse    | 2   | 500.00           | 1,000.00    |",
+    "| External SSD      | 1   | 4,500.00         | 4,500.00    |",
+    "| HDMI Cable        | 5   | 200.00           | 1,000.00    |",
+    "| USB Hub           | 2   | 500.00           | 1,000.00    |",
     "------------------------------------------------------------",
-    "Total Amount: INR 15,875.00",
+    "Total Amount: INR 9,500.00",
     "Payment Status: Paid",
     "Currency: INR",
     "",
@@ -35,3 +35,4 @@ for line in lines:
     pdf.cell(0, 10, txt=line, ln=True)
 
 pdf.output("sample_invoice.pdf")
+
