@@ -186,15 +186,6 @@ class JsonAgent(BasicAgent):
             action = "log"
         )
         print("Anomalies logged successfully")
-
-      else:
-        self.db.insert_agent_action(
-            input_id=input_id,
-            agent = self.role,
-            description = "No anomalies",
-            action = "log"
-        )
-        print("No anomalies to log")
       
       return input_id
 
